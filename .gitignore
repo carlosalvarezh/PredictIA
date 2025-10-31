@@ -1,0 +1,43 @@
+# Python / venv / cache
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos y artefactos (mantener .gitkeep)
+data/*
+!data/.gitkeep
+data/raw/*
+data/processed/*
+data/forecasts/*
+data/predictions/*
+
+# Modelos
+models_artifacts/*
+!models_artifacts/.gitkeep
+
+# Reportes grandes (mantener salidas finales explícitas si quieres)
+reports/*
+!reports/teoria_.pdf
+!reports/genai_architecture.png
+
+# Docker/otros
+docker/*.log
+
+# Pruebas
+.coverage
+htmlcov/
