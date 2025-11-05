@@ -1,0 +1,21 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.ipynb_checkpoints/
+
+# Git y editor
+.git/
+.gitignore
+.vscode/
+
+# Datos locales (no necesarios para la imagen)
+data/
+reports/
+
+# Otros
+dist/
+build/
