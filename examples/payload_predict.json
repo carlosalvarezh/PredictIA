@@ -1,0 +1,18 @@
+{
+  "payload": {
+    "SeniorCity": 0,
+    "Partner": "Yes",
+    "Dependents": "No",
+    "Service1": "No",
+    "Service2": "No phone service",
+    "Security": "No",
+    "OnlineBackup": "Yes",
+    "DeviceProtection": "No",
+    "TechSupport": "No",
+    "Contract": "Month-to-month",
+    "PaperlessBilling": "Yes",
+    "PaymentMethod": "Electronic check",
+    "Charges": 29.85,
+    "Demand": "29.85"
+  }
+}
