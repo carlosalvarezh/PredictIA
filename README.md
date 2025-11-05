@@ -16,8 +16,8 @@ Proyecto técnico que integra:
 - `src/`: código productivo (features, modelos, API, utilidades).
 - `models_artifacts/`: artefactos serializados del modelo (p. ej., `clf_alpha_beta_final.joblib`, `inference_config.json`).
 - `reports/`: métricas, gráficos y salidas.
-- `genai/`: POC de agente generativo (opcional).
-- `docker/`: contenedorización (opcional).
+- `genai/`: e decidio realizarlo en un proyecto aparte.
+- `docker/`: contenedorización.
 - `tests/`: pruebas unitarias.
 
 ---

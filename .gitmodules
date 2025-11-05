@@ -1,0 +1,4 @@
+[submodule "genAI"]
+	path = genAI
+	url = https://github.com/carlosalvarezh/genAI.git
+	branch = main
