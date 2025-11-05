@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    image: predictia-api:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    # Si quieres ejecutar el script por fuera, no necesitas volúmenes.
+    # Si quisieras usar el script dentro del contenedor contra tus datos locales:
+    # volumes:
+    #   - ./data:/app/data
+    #   - ./reports:/app/reports
